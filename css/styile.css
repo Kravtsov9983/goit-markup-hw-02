@@ -1,9 +1,13 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .logo-header-webstudio {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
@@ -29,14 +33,18 @@
 }
 
 .nav-header-list-link {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
   text-decoration: none;
+}
+
+.contacts:focus,
+.contacts:hover {
+  color: #2196f3;
 }
 
 .contacts {
@@ -45,11 +53,10 @@
 }
 
 .button-name {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -80,6 +87,14 @@
   border-radius: 4px;
 }
 
+.filter-button-1,
+.filter-button-2,
+.filter-button-3,
+.filter-button-4,
+.filter-button-5 {
+  cursor: pointer;
+}
+
 .button-name:focus,
 .button-name:hover {
   color: #ffffff;
@@ -90,21 +105,18 @@
 }
 
 .name-project {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
 .description-project {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -114,18 +126,17 @@
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
 }
 
 .gps {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -136,11 +147,10 @@
 
 .foot-mail,
 .foot-tel {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff99;
 }
